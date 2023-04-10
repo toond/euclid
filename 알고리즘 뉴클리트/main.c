@@ -8,9 +8,6 @@ int testeuclid();
 
 int main(void)
 {
-	int a;
-	printf("최대공약수");
-	a = testeuclid();
-	printf("%d", a);
+	testeuclid();
 	return 0;
 }
